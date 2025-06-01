@@ -39,9 +39,9 @@ Flex Trainer is a comprehensive management system designed for gyms and health m
 DB_PROJECT/
 ├───gym-management-system/
 |   ├───FlexTrainer-database.sql
-|   ├───data/
-|   ├───images/
-|   └───member_forms/
+|   ├───data/                                  # CSV files for database population
+|   ├───images/                                # Images used in application interfaces
+|   └───member_forms/                          # Forms (design + backend code) catered to each type of user
 └───README.md   
 ```
 
@@ -57,9 +57,9 @@ DB_PROJECT/
 
 #### 2. Set up the backend  
    - Setup a database and run the SQL commands in `FlexTrainer-database.sql`.
+   - Use the import feature to populate your database.
    - Configure the database and update connection strings in the backend code.
      
 #### 3. Run the application  
-   - Run the `LifeFlowApplication.java` file.
-   - Open `localhost:8080` or the main entry point in your browser.
+   - Run the `Program.cs` file.
 
